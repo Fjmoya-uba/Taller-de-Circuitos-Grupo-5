@@ -1,13 +1,13 @@
 LTspice 24.1.9 for Windows
 Circuit: C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-4\draft-circuitos.net
-Start Time: Fri Mar 27 21:30:42 2026
+Start Time: Fri Mar 27 22:00:28 2026
 solver = Normal
 Maximum thread count: 4
 tnom = 27
 temp = 27
 method = trap
-.step 
-Total elapsed time: 0.135 seconds.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.167 seconds.
 
 Files loaded:
 C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-4\draft-circuitos.net
