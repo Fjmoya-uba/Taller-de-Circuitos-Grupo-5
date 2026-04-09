@@ -4,6 +4,15 @@
 	(generator_version "10.0")
 	(uuid "70816206-2001-4ff4-9567-5d4a4798dbfa")
 	(paper "A4")
+	(title_block
+		(title "Fuente Regulada con Protección Foldback")
+		(date "2026-04-10")
+		(company "FIUBA - TA138")
+		(comment 1 "Lautaro, García Vitale - Padrón: 110028")
+		(comment 2 "Santiago Manuel, Cabrera - Padrón: 110445")
+		(comment 3 "Francisco Javier, Moya - Padrón: 109899")
+		(comment 4 "Integrantes:")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names
@@ -2940,7 +2949,7 @@
 			(uuid "1e0a4f44-73a6-43f6-9c7e-45ffc4d26a1e")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q4")
 					(unit 1)
@@ -3050,7 +3059,7 @@
 			(uuid "066f095a-4bf5-45d3-b8f0-c8e43f207111")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q3")
 					(unit 1)
@@ -3160,7 +3169,7 @@
 			(uuid "a609be1f-e1fc-4b39-8836-005c0f7a386b")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q6")
 					(unit 1)
@@ -3238,7 +3247,7 @@
 			(uuid "ff0778d0-ab44-4d7c-9ad9-d99eccea622d")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "#PWR02")
 					(unit 1)
@@ -3336,7 +3345,7 @@
 			(uuid "d77003b6-e580-44fb-9c45-56a97047fedb")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "U2")
 					(unit 1)
@@ -3443,7 +3452,7 @@
 			(uuid "68e868fe-34fc-45ef-bcf3-04f3d29471a3")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q10")
 					(unit 1)
@@ -3553,7 +3562,7 @@
 			(uuid "d80d94e1-1133-46a2-92e2-21c987eff176")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q5")
 					(unit 1)
@@ -3663,7 +3672,7 @@
 			(uuid "943bfa85-d3eb-47bf-9146-295758581cea")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q2")
 					(unit 1)
@@ -3745,7 +3754,7 @@
 			(uuid "1a49e25c-b35f-4e81-9b84-fc0d054c4919")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R2")
 					(unit 1)
@@ -3827,7 +3836,7 @@
 			(uuid "2438ea36-a635-48f5-b18d-72bf2b940f42")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R5")
 					(unit 1)
@@ -3905,7 +3914,7 @@
 			(uuid "cd973be5-c692-48e8-85eb-01d916a961b9")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "#PWR01")
 					(unit 1)
@@ -3985,7 +3994,7 @@
 			(uuid "ef55eb83-8065-4fef-a651-ab52f7a4e3a4")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R8")
 					(unit 1)
@@ -4065,7 +4074,7 @@
 			(uuid "10064ca7-ba14-4f54-a32f-bd81fac89e35")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R9")
 					(unit 1)
@@ -4143,7 +4152,7 @@
 			(uuid "d9eb8d36-18b8-45c0-a425-9ff1ee5b61dc")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "#PWR06")
 					(unit 1)
@@ -4221,7 +4230,7 @@
 			(uuid "b9fa3515-af2d-4760-b3c8-a2a3d4165df6")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "#PWR03")
 					(unit 1)
@@ -4302,7 +4311,7 @@
 			(uuid "813f3579-f990-46ff-831e-2e850ab57c36")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "RL")
 					(unit 1)
@@ -4398,7 +4407,7 @@
 			(uuid "3c5a72e5-b02f-4535-bdcb-35b56cb9a2a6")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "U1")
 					(unit 1)
@@ -4476,7 +4485,7 @@
 			(uuid "e7589eb5-da46-4712-a9ad-0a211aa27c24")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "#PWR04")
 					(unit 1)
@@ -4558,7 +4567,7 @@
 			(uuid "7c5bf4ca-0cf8-4ebe-8c36-1848d9dd17ca")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "J2")
 					(unit 1)
@@ -4640,7 +4649,7 @@
 			(uuid "0cfe256e-247c-4770-9397-17ca844e7987")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "JP3")
 					(unit 1)
@@ -4718,7 +4727,7 @@
 			(uuid "ee76ca57-e478-4d90-aa1e-d99ab4b520c2")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "#PWR05")
 					(unit 1)
@@ -4827,7 +4836,7 @@
 			(uuid "2e024082-ad5d-4c29-a788-132ebf01cc17")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q9")
 					(unit 1)
@@ -4907,7 +4916,7 @@
 			(uuid "94be727c-4c9f-48d4-bd7e-40c9dbfbfe12")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "JP2")
 					(unit 1)
@@ -4989,7 +4998,7 @@
 			(uuid "05a188f7-ecce-4d9e-b710-7b33f929c5e9")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R3")
 					(unit 1)
@@ -5071,7 +5080,7 @@
 			(uuid "2c6a2f46-6fca-459b-ba78-4fedcda1766f")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "JP1")
 					(unit 1)
@@ -5181,7 +5190,7 @@
 			(uuid "7baba6c8-10f7-4981-8ba6-046e101b04fd")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q7")
 					(unit 1)
@@ -5262,7 +5271,7 @@
 			(uuid "b2ee0432-43f2-4901-9a62-1af267203157")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R2")
 					(unit 1)
@@ -5372,7 +5381,7 @@
 			(uuid "bd18a768-4224-4bb1-a5d0-7202cbc9f6a5")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "Q8")
 					(unit 1)
@@ -5454,7 +5463,7 @@
 			(uuid "5a9359bb-548b-40b2-88ce-a215db5b83c7")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R4")
 					(unit 1)
@@ -5535,7 +5544,7 @@
 			(uuid "765f8c7d-a334-47e8-b042-253ac2351011")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R1")
 					(unit 1)
@@ -5615,7 +5624,7 @@
 			(uuid "6a25fe2c-c9c4-418b-a089-1c050e0d93ba")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "J1")
 					(unit 1)
@@ -5695,7 +5704,7 @@
 			(uuid "2e36ec2a-ee38-43b4-bcaa-3fb053b90b9f")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R7")
 					(unit 1)
@@ -5777,7 +5786,7 @@
 			(uuid "63678ed3-1054-4d41-b832-0fd5a18acd55")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "RS")
 					(unit 1)
@@ -5857,7 +5866,7 @@
 			(uuid "18e4d9ba-c922-436e-ad30-38a2428c930b")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "JP4")
 					(unit 1)
@@ -5939,7 +5948,7 @@
 			(uuid "f27cd37f-44fb-4286-b66b-875cfb6cb18f")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R1")
 					(unit 1)
@@ -6021,7 +6030,7 @@
 			(uuid "132b1996-bc80-4e72-b5f2-e1a73923428f")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "R4")
 					(unit 1)
@@ -6103,7 +6112,7 @@
 			(uuid "d2abdd95-8ec1-4509-b9f9-604532c3a455")
 		)
 		(instances
-			(project "probando"
+			(project "esquematico"
 				(path "/70816206-2001-4ff4-9567-5d4a4798dbfa"
 					(reference "JP5")
 					(unit 1)
