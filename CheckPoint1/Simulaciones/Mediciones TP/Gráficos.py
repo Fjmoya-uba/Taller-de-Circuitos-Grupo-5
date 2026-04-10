@@ -47,13 +47,16 @@ plt.savefig("Regulacion_de_Carga.png")
 # ============================================================
 # 3) CURVA FOLDBACK: Vo vs I(RL)
 # ============================================================
-x, y = leer_txt_ltspice("Curva Foldback.txt")
+datos = np.loadtxt("Curva Foldback.txt", skiprows=1)
+x = datos[:, 2]  # I(RL)
+y = datos[:, 1:]  # Vo
+
 
 plt.figure()
 plt.plot(x, y[:, 0], color = 'black')
 
 plt.xlabel(f'$I_{{RL}} [A]$')
-plt.xlim(np.min(x), np.max(x))
+plt.xlim(np.min(x), 1.5)
 
 plt.ylabel(f'$V_{{o}} [V]$')
 plt.title("Curva Foldback")
@@ -100,6 +103,7 @@ def leer_ganancia_lazo(nombre_archivo):
 # =========================
 freq, modulo, fase = leer_ganancia_lazo("Ganancia de Lazo.txt")
 
+fase = np.unwrap(fase, period=360)
 # Crear subplots
 fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
 

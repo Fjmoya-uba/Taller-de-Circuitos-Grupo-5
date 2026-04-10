@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Santiago\Desktop\facu\2026c1\Circuitos G5\CheckPoint1\Simulaciones\Mediciones TP\Ganancia de Lazo.asc
+Start Time: Fri Apr 10 11:54:16 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.187 seconds.
+
