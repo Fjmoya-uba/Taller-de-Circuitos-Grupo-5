@@ -1,0 +1,13 @@
+En el archivo lm393.lib se puede cambiar el tiempo de 
+propagación a mano.
+
+Ir a la línea 116 y modificar el parámetro TD
+
+En el archivo original la línea es: 
+############################################
+T_TPD         N03175 0 VOUT 0 Z0=50 TD=1.22u
+############################################
+Modificarla a, por ejemplo:
+############################################
+T_TPD         N03175 0 VOUT 0 Z0=50 TD=0.1u
+############################################
