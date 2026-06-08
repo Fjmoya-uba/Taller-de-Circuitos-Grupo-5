@@ -2,3 +2,26 @@ Drivers de Microelectrónica:
 https://www.microelectronicash.com/busqueda_avanzada.php?buscar=1&palabra=mosfet+driver
 
 Semiconductores y Componentes no tiene drivers que no tenga Microelectrónica
+
+Por el tiempo muerto que tiene, el único que nos
+sirve es el IR2104, que es el que usaron los pibes
+
+¿Aislar la realimentación?
+
+¿Qué nos tenemos que fijar para elegir el gatedriver?
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Nota sobre las dimensiones del alambre del inductor:
+
+Amin: área mínima; Amax: área máxima
+dmin: diámetro mínimo; dmax: diámetro máximo
+
+Amin = 0,066 mm^2
+Amax = 0,87 mm^2
+
+dmin = 0,29 mm
+dmax = 1,05 mm
+
+El AWG#20 tiene A = 0,5 mm^2. Sirve
+
