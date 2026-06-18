@@ -1,0 +1,18 @@
+El capacitor de Bootstrap carga al gate del transistor superior
+
+Q: carga del gate (hoja de datos)
+Vd: tensión de caída del diodo de Bootstrap
+
+C_boot > 10 * Q/(Vcc - Vd)
+
+C_boot = 100nF anda bien
+
+El capacitor que va en la entrada de alimentación del IR2104 carga al capacitor de Bootstrap. Es necesario que sea grande:
+
+C_VDD > 10 * C_boot
+
+C_VDD = 1uF
+
+Diodo de Bootstrap: debe ser rápido. Usar el mismo Schottky que para los MOS
+
+Resistencia de Bootstrap: limita la corriente a través del diodo en la primer carga. Si es muy grande hace lento al circuito
