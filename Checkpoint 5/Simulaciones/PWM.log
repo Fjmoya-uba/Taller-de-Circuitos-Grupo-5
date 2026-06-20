@@ -1,0 +1,35 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 5\Simulaciones\PWM.net
+Start Time: Fri Jun 19 17:58:15 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Compress1stOrder = true
+Compress2ndOrder = true
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 5\Simulaciones\PWM.net(3): Limiting fall time to 0.1.
+
+V1 Vcc 0 PULSE(0 9.1 0 1n 0 1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration succeeded in finding operating point.
+Changing Tseed to 1.95312e-11
+Changing Tseed to 1.95312e-13
+Changing Tseed to 1.95312e-10
+Changing Tseed to 1.95312e-14
+Changing Tseed to 1.95312e-09
+Changing Tseed to 1.95312e-15
+Changing Tseed to 1.95312e-08
+Changing Tseed to 1.95312e-16
+Changing Tseed to 1.95312e-07
+Changing Tseed to 1.95312e-17
+Changing Tseed to 1.95312e-06
+Changing Tseed to 1.95313e-18
+Total elapsed time: 0.773 seconds.
+
+Files loaded:
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 5\Simulaciones\PWM.net
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 5\Simulaciones\LM393.lib
+C:\Users\fjmoy\OneDrive\Documentos\Fran\BuenosAires\2026\1C\Taller-de-Circuitos-Grupo-5\Checkpoint 5\Simulaciones\TL072.301
+C:\Users\fjmoy\AppData\Local\LTspice\lib\sub\LT1018.sub
+
