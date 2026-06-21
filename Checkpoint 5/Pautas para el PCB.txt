@@ -1,0 +1,23 @@
+2) ¿4V < VC < 5? --> se corrige solo
+
+4) Capacitor de entrada de la Buck? Hay que calcularlo?
+680u. Menos no
+
+Pautas para el PCB
+
+Ver la página 26 de la hoja de datos del LM2576.
+Cuando tengas armado el PCB buscar la espira 3. Que sea chica
+
+Nodos que tienen que ser cortos:
+1) del C de entrada al drain del MOSFET superior
+2) del Source del MOSFET superior al Drain del MOSFET inferior
+3) Del Source del MOSFET inferior (GND) la GND del capacitor de entrada
+
+Dicho de otra forma, el área de la espira verde debe ser chica
+
+¿Dónde van los pulsos de control???
+
+Medidas del inductor:
+Court: 3cmx3cm
+Pitch entre pines: 5mm
+Pitch entre hileras: 2,5cm

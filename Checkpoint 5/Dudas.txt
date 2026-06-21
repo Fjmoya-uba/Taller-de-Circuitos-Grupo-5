@@ -1,5 +1,0 @@
-1) ¿Simulaciones del lazo compensado? ¿Están bien?
-2) ¿4V < VC < 5?
-3) Entrada SD del GD?
-4) Capacitor de entrada de la Buck? Hay que calcularlo?
-5) Qué mediciones hay que hacer de la Buck?
