@@ -37,3 +37,7 @@ VIN envuelve a GND que envuelve a VOUT.
 GND ocupa el centro de la placa y un costado.
 Disposición diagonal
 
+Corrección: salida más cerca de la entrada
+Ojo con el nodo de switching
+Sin tocar la compensación.
+Buck en forma de C invertida

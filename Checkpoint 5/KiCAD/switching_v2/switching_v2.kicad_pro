@@ -196,7 +196,9 @@
       "track_widths": [
         0.0,
         1.2,
-        2.5
+        2.0,
+        2.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -228,6 +230,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.5,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -487,7 +493,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "switching_v1.kicad_pro",
+    "filename": "switching_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -660,12 +666,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "switching_v1.kicad_sch",
+        "filename": "switching_v2.kicad_sch",
         "name": "Raíz",
         "uuid": "e49ef0df-36f0-414b-a25d-237e3441d696"
       }
     ],
-    "used_designators": "JP6-10,TP10,J2,J4-5",
+    "used_designators": "JP6-10,TP10,R4,R12,J2,J4-8,U6,#PWR14,#PWR16",
     "variants": []
   },
   "sheets": [
