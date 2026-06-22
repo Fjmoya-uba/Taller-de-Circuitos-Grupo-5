@@ -21,3 +21,19 @@ Medidas del inductor:
 Court: 3cmx3cm
 Pitch entre pines: 5mm
 Pitch entre hileras: 2,5cm
+
+Orden para poner los componentes en el PCB
+1) Espira sensible de la Buck. Las dos llaves y el capacitor de entrada
+2)Pistas de señal
+2.a) Cuadrada, Triangular, PWM
+2.b) Salida del GD. Gates de los MOSFET
+3) Compensación
+4) Hacé lo que buenamente puedas con las pistas de continua. 
+Acá vale pasar cosas por arriba
+
+OBS de la hoja de datos de TI:
+Una zona de cobre envuelve a la otra.
+VIN envuelve a GND que envuelve a VOUT.
+GND ocupa el centro de la placa y un costado.
+Disposición diagonal
+
