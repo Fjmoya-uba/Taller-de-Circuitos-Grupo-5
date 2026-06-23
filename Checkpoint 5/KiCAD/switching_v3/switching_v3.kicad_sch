@@ -6441,7 +6441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "1Meg"
 			(at 264.16 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "1Meg"
 			(at 264.16 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6682,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "10"
 			(at 59.436 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +6843,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "10"
 			(at 72.39 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "5k1"
 			(at 231.14 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +8335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560k"
+		(property "Value" "1Meg"
 			(at 29.21 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,7 +9087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560k"
+		(property "Value" "1Meg"
 			(at 29.21 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,7 +10807,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "10"
 			(at 59.69 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)

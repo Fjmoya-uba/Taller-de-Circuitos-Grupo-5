@@ -1,0 +1,41 @@
+Reference||	Qty||	Value
+C1, C7, C8, C10, C14||	5||	0.1u
+C2||	1||	0.33u
+C3, C15||	2||	330u
+C4||	1||	10u
+C5||	1||	56p
+C6||	1||	1n
+C9||	1||	1u
+Cc1||	1||	22n
+Cc2||	1||	1.2n
+Cc3||	1||	5.6n
+D1, D2, D4||	3||	D_Schottky
+D3||	1||	LED
+J1, J3||	2||	Conn_01x02
+J2||	1||	TP_BATT
+J4, J5||	2||	TP_GND
+J6||	1||	TP_Cuad
+J7||	1||	TP_Triang
+J8||	1||	TP_Bootstrap
+J9||	1||	TP_Vo
+JP4||	1||	Jumper_9V
+JP5||	1||	SD_IN
+JP6||	1||	TP_PWM
+JP7, JP9||	2||	TP_Vc
+JP8||	1||	TP_HO
+L1||	1||	427u
+Q1, Q2||	2||	IRF740
+R1, R2, R4, R12||	4||	1Meg
+R3, R6, R9, R15||	4||	5k1
+R5||	1||	220k
+R7, R8, R10||	3||	1
+R11, Rf2||	2||	56k
+Rc1||	1||	68k
+Rc2||	1||	3k3
+Rc3||	1||	680
+Rf1||	1||	560k
+TP5||	1||	TP_Sw
+U1||	1||	LM7809_TO220
+U2||	1||	LM393
+U3||	1||	IR2104
+U4, U6||	2||	TL072
