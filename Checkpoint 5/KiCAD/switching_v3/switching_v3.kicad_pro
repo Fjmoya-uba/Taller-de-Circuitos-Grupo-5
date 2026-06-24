@@ -529,7 +529,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Salida fabricacion/",
+      "plot": "Salida_fabricacion_final/",
       "specctra_dsn": "",
       "vrml": ""
     },
