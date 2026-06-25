@@ -671,7 +671,7 @@
         "uuid": "e49ef0df-36f0-414b-a25d-237e3441d696"
       }
     ],
-    "used_designators": "J9",
+    "used_designators": "J9,U5,#PWR12,#PWR24",
     "variants": []
   },
   "sheets": [

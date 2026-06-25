@@ -2620,6 +2620,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM7810_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7810_TO220"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM7810_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7810_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRF740"
 			(pin_names
 				(hide yes)
@@ -3572,6 +3729,12 @@
 		(uuid "38860f06-7692-4563-b3b9-bb7eacc4c0f3")
 	)
 	(junction
+		(at 36.83 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3eae63-6a3d-4290-bd24-f16a9ea576c7")
+	)
+	(junction
 		(at 179.07 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4325,6 +4488,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 63.5) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347492eb-0795-4a5f-b734-bed548e49549")
+	)
+	(wire
+		(pts
 			(xy 76.2 53.34) (xy 78.74 53.34)
 		)
 		(stroke
@@ -4365,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 71.12) (xy 25.4 69.85)
+			(xy 25.4 63.5) (xy 25.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4735,6 +4908,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 53.34) (xy 27.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729337f8-174e-4eb8-8bdc-7a22506544fd")
+	)
+	(wire
+		(pts
 			(xy 233.68 137.16) (xy 237.49 137.16)
 		)
 		(stroke
@@ -4752,6 +4935,16 @@
 			(type default)
 		)
 		(uuid "78567758-427b-4814-b7d7-7543ca92eff1")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791bb528-b019-400f-a3e6-5e403c9322fe")
 	)
 	(wire
 		(pts
@@ -4905,6 +5098,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 41.91) (xy 17.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977d136d-9980-464d-8939-66a9257b23ef")
+	)
+	(wire
+		(pts
 			(xy 237.49 123.19) (xy 252.73 123.19)
 		)
 		(stroke
@@ -5052,6 +5255,16 @@
 			(type default)
 		)
 		(uuid "a7f599e4-8daf-4d7d-a18d-decbe81ec068")
+	)
+	(wire
+		(pts
+			(xy 35.56 45.72) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8106baa-99ab-4c8c-a7f2-26a0857c353d")
 	)
 	(wire
 		(pts
@@ -5585,6 +5798,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 63.5) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fd2fb2-12c4-4dd6-b656-7551fae8b540")
+	)
+	(wire
+		(pts
 			(xy 149.86 53.34) (xy 144.78 53.34)
 		)
 		(stroke
@@ -5635,13 +5858,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 46.99 53.34)
+			(xy 46.99 45.72) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e811390c-fdde-4790-8945-ad8c9862bfb0")
+		(uuid "e76bee40-97f7-4af0-a805-ce7358a6711d")
 	)
 	(wire
 		(pts
@@ -5772,6 +5995,16 @@
 			(type default)
 		)
 		(uuid "f4942012-0f2c-4c8e-83df-b1a99c306382")
+	)
+	(wire
+		(pts
+			(xy 20.32 45.72) (xy 17.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5803620-24e8-44f0-8275-efff60ff7fe2")
 	)
 	(wire
 		(pts
@@ -6577,6 +6810,84 @@
 			(project "switching_v3"
 				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 17.78 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f719b1-f678-4ac8-89c2-dc6f9c4b8d25")
+		(property "Reference" "#PWR012"
+			(at 17.78 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 17.78 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 17.78 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e6b4b46-c93a-48f5-acaf-d316117d6c41")
+		)
+		(instances
+			(project "switching_v3"
+				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9307,6 +9618,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM7810_TO220")
+		(at 27.94 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5aeb984c-0eb5-4168-be01-d5b42556541c")
+		(property "Reference" "U5"
+			(at 27.94 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7810_TO220"
+			(at 27.94 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 27.94 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 27.94 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220"
+			(at 27.94 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e399896-b2ec-4d45-b641-e6397461b407")
+		)
+		(pin "1"
+			(uuid "f808bfe2-c5dd-48fa-8a2f-5b1148dee623")
+		)
+		(pin "3"
+			(uuid "f4fd3443-4b91-46ce-b120-a2488e9bfee3")
+		)
+		(instances
+			(project "switching_v3"
+				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 210.82 130.81 90)
 		(unit 1)
@@ -11267,84 +11662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 46.99 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac1ae273-bd8a-4720-86ef-7ed30fb6bdaa")
-		(property "Reference" "#PWR012"
-			(at 46.99 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 46.99 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 46.99 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96cb6f4f-61fe-446b-a7a1-15a733479de1")
-		)
-		(instances
-			(project "switching_v3"
-				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 39.37 17.78 180)
 		(unit 1)
@@ -12646,6 +12963,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d2ee45-5ae1-46a8-a2c3-13c40b5a5eac")
+		(property "Reference" "#PWR024"
+			(at 27.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39fdbb2b-820e-4b21-82ab-4de28c87be3b")
+		)
+		(instances
+			(project "switching_v3"
+				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 60.96 21.59 0)
 		(unit 1)
@@ -13592,84 +13987,6 @@
 			(project "switching_v3"
 				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
 					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9V")
-		(at 25.4 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f428c00e-9ce1-42b5-8c99-43c2a4afc5fc")
-		(property "Reference" "#PWR027"
-			(at 25.4 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 25.4 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 25.4 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1e4013c-72d5-4778-85d8-8807f4dcb4f3")
-		)
-		(instances
-			(project "switching_v3"
-				(path "/e49ef0df-36f0-414b-a25d-237e3441d696"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
