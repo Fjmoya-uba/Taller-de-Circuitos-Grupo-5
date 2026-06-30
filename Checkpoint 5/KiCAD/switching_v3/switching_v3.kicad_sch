@@ -10121,7 +10121,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "30n"
 			(at 176.53 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,7 +10961,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6n"
+		(property "Value" "4.7n"
 			(at 171.45 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
